@@ -5,4 +5,4 @@ codeforces-cdn
 
 详见[这里][1]
 
-[1]: wizmann.tk/third-party-codeforces-cdn.html
+[1]: http://wizmann.tk/third-party-codeforces-cdn.html
