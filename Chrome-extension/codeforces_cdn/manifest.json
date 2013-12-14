@@ -1,0 +1,23 @@
+{
+    "name": "Codeforce CDN加速",
+    "version": "0.1",
+    "description": "个人性趣所致，不承担任何可能的风险",
+    "permissions": [
+        "tabs",            
+        "http://*.codeforces.com/*",         
+        "http://*.codeforces.ru/*",         
+        "webRequestBlocking",
+        "webRequest"
+    ],
+    "background":  { "scripts": ["codeforces_cdn.js"] },
+        "browser_action":{
+        "default_title": "Codeforce CDN加速",
+        "default_icon": "icon.png"
+    },
+    "icons":{
+        "16": "icon.png",
+        "48": "icon.png",
+        "128":"icon.png" 
+    },
+    "manifest_version": 2
+}
